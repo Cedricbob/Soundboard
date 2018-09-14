@@ -1,0 +1,33 @@
+<header>
+  <!--Title-->
+  <strong>SOUND<span>BOARD</span></strong>
+  <!--Nav buttons-->
+  <nav>
+    <div (click)="minimize();">
+      <img src="./assets/nav/minimize.svg">
+    </div>
+    <div (click)="toggleMaximize();">
+      <img src="./assets/nav/expend.svg">
+    </div>
+    <div id="exit" (click)="exit();">
+      <img src="./assets/nav/exit.svg">
+    </div>
+  </nav>
+</header>
+
+<div class="container">
+  <div class="all">
+    <app-tab icon="all_inclusive" name="{{ 'PAGES.HOME.All' | translate }}"></app-tab>
+  </div>
+  <div class="categories">
+    <app-tab color="red" name="Catégorie 1"></app-tab>
+    <app-tab color="yellow" name="Son de chats"></app-tab>
+    <app-tab color="grey" name="Catégorie très très très longue"></app-tab>
+  </div>
+  <div class="settings">
+    <app-tab icon="settings" name="{{ 'PAGES.HOME.Settings' | translate }}"></app-tab>
+  </div>
+  
+  <div class="main">
+  </div>
+</div>

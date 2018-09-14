@@ -1,0 +1,28 @@
+@font-face{
+  font-family: 'Roboto-Black';
+  src: url('./assets/Font/Roboto/Roboto-Black.ttf');
+}
+
+@font-face{
+  font-family: 'Roboto-Light';
+  src: url('./assets/Font/Roboto/Roboto-Light.ttf');
+}
+
+@font-face{
+  font-family: 'Roboto-Medium';
+  src: url('./assets/Font/Roboto/Roboto-Medium.ttf');
+}
+
+/* You can add global styles to this file, and also import other style files */
+html, body {
+  
+  padding: 0;
+  margin: 0;
+  
+}
+body{
+  height: calc(100% -4px);
+  width: calc(100% -4px);
+  background-color: #262626;
+  
+}
